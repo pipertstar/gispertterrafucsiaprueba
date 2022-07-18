@@ -36,11 +36,11 @@ header {
 }
 */
 main {
-align-self: start;
-display: grid;
-justify-content: center;
-justify-items:legacy;
-align-content:space-between;
+    align-self: start;
+    display: grid;
+    justify-content: center;
+    justify-items: legacy;
+    align-content: space-between;
 
 
 }
@@ -59,6 +59,7 @@ align-content:space-between;
 
 
 }
+
 /*
 .navegacion {
 
@@ -95,6 +96,7 @@ align-content:space-between;
 
 
 }
+
 /*
 .video {
     display: flex;
@@ -178,7 +180,7 @@ align-content:space-between;
     background: repeat-x;
 }
 
-@media  (max-width:1040px) {
+@media (max-width:1040px) {
 
 
     header {
@@ -188,95 +190,135 @@ align-content:space-between;
         justify-content: center;
         align-items: center;
         height: 9rem;
-}
-.img {
-align-content: center;
-}
+    }
 
-.nav{
+    .img {
+        align-content: center;
+    }
 
-    display: grid;
-    justify-content: end;
-    justify-items: stretch;
+    .nav {
 
-
-
-}
+        display: grid;
+        justify-content: end;
+        justify-items: stretch;
 
 
 
-.grid {
-    background-position: 0fr 0.1fr 2fr;
-    width: 100;
-    height: 600;
-    display: grid;
-    grid-template-columns:2fr 1fr;
-    align-items:space-evenly;
+    }
+
+
+
+    .grid {
+        background-position: 0fr 0.1fr 2fr;
+        width: 100;
+        height: 600;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: space-evenly;
+
+
+
+
+
+
+
+    }
+
+    .grid__subtitulo1 {
+        font-size: 55;
+
+
+
+
+
+    }
+
+    .grid__subtitulo2 {
+        font-size: 55;
+
+
+    }
+
+
+    .grid__subtitulo3 {
+        font-size: 55;
+
+
+    }
+
+    .sky {
+
+        width: 5000px;
+        height: 1000px;
+        background-color: aquamarine;
+        position: relative;
+        animation-name: skymariobros;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+
+
+    }
+
+
+    @keyframes skymariobros {
+        0% {
+
+            background-color: aquamarine;
+        }
+
+        100% {
+            background-color: blue;
+
+        }
+    }
+
+
+   
+
+        /*
+    .moneda {
+
+        width: 480px;
+        height: 400px;
+        background-image: url('./asset/asset1/moneda.png');
+        position: relativo;
+
+
+
+    }
+
+*/
+        .nube {
+
+            width: 700px;
+            height: 400px;
+            background-image: url('./asset/asset1/nube.png');
+            position: relative;
+
+        }
+
+        .mario {
+            width: 500rem;
+            height: 400rem;
+            background-image: url('./asset/asset1/mario.png');
+            position:absolute;
+            top: 20px;
+            left: 100px;
+            animation: mariomueve 5s forwards;
+
+
+
+        }
+        @keyframes mariomueve {
+            0% {
+                top: 20px;
+            }
     
+            100% {
     
-    
-    
+                t top: 260px;
+            }
+       
 
-
-
-}
-
-.grid__subtitulo1 {
-    font-size: 55;
-    
-
-
-
-
-}
-
-.grid__subtitulo2 {
-    font-size: 55;
-
-
-}
-
-
-.grid__subtitulo3 {
-    font-size: 55;
-
-
-}
-.moneda{
-
-    width:720px ;
-    height: 480px;
-    background-image: url('.//asset/asset1/moneda.png');
-
-
-
-
-
-}
-
-}   
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    }
