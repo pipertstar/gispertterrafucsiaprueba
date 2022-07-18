@@ -242,6 +242,18 @@ align-content: center;
 
 
 }
+.moneda{
+
+    width:720px ;
+    height: 480px;
+    background-image: url('.//asset/asset1/moneda.png');
+
+
+
+
+
+}
+
 }   
 
 
